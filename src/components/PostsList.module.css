@@ -1,0 +1,9 @@
+.posts-list {
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
