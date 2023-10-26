@@ -1,5 +1,11 @@
-const ButtonStyle1 = () => {
-  return <button type="button">Add post</button>;
+import { Button } from "react-bootstrap";
+
+const ButtonStyle1 = ({ text, onClick }) => {
+  return (
+    <Button variant="success" size="md" onClick={onClick}>
+      {text}
+    </Button>
+  );
 };
 
 export default ButtonStyle1;
